@@ -1,0 +1,13 @@
+{
+    "name": "harika-docs",
+    "owner": {
+      "name": "Harika"
+    },
+    "plugins": [
+      {
+        "name": "sme-question-builder",
+        "source": "./plugins/sme-question-builder",
+        "description": "Generates focused SME questions from feature notes and ticket text."
+      }
+    ]
+  }

@@ -1,0 +1,8 @@
+{
+    "name": "sme-question-builder",
+    "description": "Generates focused SME questions from feature notes and ticket text.",
+    "version": "1.0.0",
+    "author": {
+      "name": "Harika"
+    }
+  }
