@@ -39,3 +39,17 @@ The plugin identifies information gaps; it does not verify product behavior.
 ## Author
 
 Harika
+
+## Install from GitHub
+In Claude Code, run these commands one at a time:
+
+```text
+/plugin marketplace add Harikag-cpu/my-docs-marketplace
+/plugin install sme-question-builder@harika-docs
+```
+
+Then run the plugin with your notes:
+
+```text
+/sme-question-builder:sme-questions Paste your feature notes here
+```
