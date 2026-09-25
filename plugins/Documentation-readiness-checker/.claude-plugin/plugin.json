@@ -1,0 +1,8 @@
+{
+    "name": "documentation-readiness-checker",
+    "description": "Reviews SME drafts for documentation gaps, screenshots, limitations, and details needing verification.",
+    "version": "1.0.0",
+    "author": {
+      "name": "Harika"
+    }
+  }
