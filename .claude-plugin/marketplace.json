@@ -1,13 +1,18 @@
 {
-    "name": "harika-docs",
-    "owner": {
-      "name": "Harika"
+  "name": "harika-docs",
+  "owner": {
+    "name": "Harika"
+  },
+  "plugins": [
+    {
+      "name": "sme-question-builder",
+      "source": "./plugins/sme-question-builder",
+      "description": "Generates focused SME questions from feature notes and ticket text."
     },
-    "plugins": [
-      {
-        "name": "sme-question-builder",
-        "source": "./plugins/sme-question-builder",
-        "description": "Generates focused SME questions from feature notes and ticket text."
-      }
-    ]
-  }
+    {
+      "name": "documentation-readiness-checker",
+      "source": "./plugins/documentation-readiness-checker",
+      "description": "Reviews SME drafts for documentation gaps, screenshots, limitations, and details needing verification."
+    }
+  ]
+}
