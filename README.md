@@ -41,6 +41,7 @@ The plugin identifies information gaps; it does not verify product behavior.
 Harika
 
 ## Install from GitHub
+
 In Claude Code, run these commands one at a time:
 
 ```text
@@ -52,4 +53,4 @@ Then run the plugin with your notes:
 
 ```text
 /sme-question-builder:sme-questions Paste your feature notes here
-```
+```/sme-question-builder:sme-questions
